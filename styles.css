@@ -1,0 +1,209 @@
+.header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  background-color:#b3c6ff;
+  padding:0px 20px;
+}
+
+.logo{
+  display:inline-block;
+  font-size:24px;
+}
+
+.soc-nav{
+  display:inline-block;
+  list-style: none;
+}
+
+.soc-nav a{
+  text-decoration:none;
+}
+
+.soc-nav-item{
+  display:inline-block;
+  margin-left:10px;
+}
+
+.header i{
+  margin-right:5px;
+  color:#ffffff;
+  font-size:20px;
+  background-color:blue;
+  padding:5px 6px 5px 6px;
+  border-radius:50%
+}
+
+.banner{
+  background-image:url("img/ski.jpg");
+  background-attachment: fixed;
+  background-size:cover;
+  background-position: center;
+  background-repeat:no-repeat;
+  height:700px;
+}
+
+.page-nav{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style:none;
+}
+
+.page-nav a{
+  text-decoration: none;
+}
+
+.page-nav-item{
+  color:blue;
+  font-size:24px;
+}
+
+.container{
+}
+
+.top-con-area{
+  display:flex;
+  margin:100px auto 50px auto;
+  width:75%;
+}
+
+.top-con-area img{
+  max-width:100%;
+}
+
+.main-content{
+  flex:3;
+  padding:5px 15px;
+}
+
+.main-content p{
+  margin-top:10px;
+  font-size:18px;
+}
+
+.main-content img{
+  border-radius:10px;
+}
+
+.pricing{
+  flex:1;
+  padding:5px 15px;
+}
+
+.pricing table{
+  width:100%;
+  border:1px solid #000000;
+  border-radius:5px;
+  border-spacing:10px;
+}
+
+.pricing th,td{
+  padding:10px;
+  text-align:center;
+  font-size:18px;
+}
+
+.pricing tr:nth-child(even){
+  background-color:#b3c6ff;
+}
+
+.pricing tr:nth-child(odd){
+  background-color:#ebebe0;
+}
+
+.headings{
+  display:flex;
+  justify-content: center;
+  margin:0px auto;
+}
+
+.dat-bac-col{
+  padding:50px 0px;
+  background-image:url("img/snow-scene.jpg");
+  background-attachment: fixed;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.dates{
+  display:flex;
+  width:75%;
+  margin:0px auto;
+}
+
+.ski-run{
+  flex:1;
+}
+
+.ski-run img{
+  max-width:100%;
+}
+
+.dat-tim{
+  flex:1;
+}
+
+.dat-tim img{
+  max-width:100%
+}
+
+.gal-bac-col{
+  background-color:#b3c6ff;
+}
+.gallery{
+  display:flex;
+  align-items: center;
+  width:75%;
+  margin:0px auto;
+}
+
+.gallery-item{
+  flex:1;
+}
+
+.gallery-item img{
+  max-width:100%;
+}
+
+.gallery-item figcaption{
+  text-align:center;
+}
+
+.con-ar-bac{
+  background-color:#e0e0d1;
+}
+
+.contact-area{
+  display:flex;
+  align-items:center;
+  padding:30px 40px;
+  width:75%;
+  margin:0px auto;
+}
+
+.map-area{
+  flex:1;
+}
+
+.contact-details{
+  flex:1;
+}
+
+.contact-details ul{
+  list-style:none;
+  line-height:4;
+  font-size:18px;
+}
+
+.contact-details ul i{
+  margin-right:20px;
+  background-color:#c2c2a3;
+  border-radius:50%;
+  padding:5px 6px 5px 6px;
+}
+
+footer{
+  background-color:black;
+  margin:0px;
+}
